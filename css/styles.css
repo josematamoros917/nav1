@@ -8,6 +8,19 @@ body {
     height: 100vh; /* Asegura que el fondo cubra toda la pantalla */
     margin: 0;
     font-family: 'Arial', sans-serif;
+    z-index: -100;
+}
+
+/* Estilo de la imagen en forma de óvalo */
+.oval-image {
+    width: 120px; /* Puedes ajustar el tamaño de la imagen */
+    height: 120px; /* Asegura que sea más alto que ancho para crear el efecto de óvalo */
+    border-radius: 50%; /* Hace que la imagen sea ovalada */
+    object-fit: cover; /* Asegura que la imagen se ajuste bien al contenedor */
+    position: absolute;
+    top: 38%; /* Ajusta para posicionar la imagen a lo largo de la pantalla */
+    right: 18%; /* Alinea la imagen a la derecha */
+    z-index: 100;
 }
 
 /* Texto centrado */
