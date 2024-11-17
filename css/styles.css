@@ -1,21 +1,28 @@
+/* Establecer el fondo como el GIF navideño */
 body {
-    background-color: #f9f9f9;
+    background-color: rgb(167, 17, 17);
+    background-image: url('../img/gif/backgr.gif'); /* Reemplaza con la ruta de tu GIF */
+    background-size: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Asegura que el fondo cubra toda la pantalla */
+    margin: 0;
     font-family: 'Arial', sans-serif;
-    color: #333;
 }
 
+/* Texto centrado */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    color: #fff; /* Blanco para contraste con el fondo */
+}
+
+/* Estilo de título */
 h1 {
-    color: #ff4b5c;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-.sticker {
-    width: 100px;
-    height: 100px;
-    transition: transform 0.3s ease-in-out;
-}
-
-.sticker:hover {
-    transform: scale(1.2) rotate(15deg);
-    cursor: pointer;
-}
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}        
+  
